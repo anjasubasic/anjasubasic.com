@@ -68,6 +68,20 @@ header > h1 {
   width: 250px;
   border-radius: 200px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .nav-tabs > li > a,
+  .nav-tabs > li > a:hover,
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:focus,
+  .nav-tabs > li.active > a:hover {
+    margin: 10px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+}
 /* End of Top Section */
 
 /* About Me */
@@ -98,6 +112,12 @@ header > h1 {
 .text-highlight {
   font-weight: 700;
   color: darkcyan;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #aboutMe > img {
+    margin: 20px;
+  }
 }
 /* End of About Me */
 
@@ -164,6 +184,26 @@ header > h1 {
   padding: 15px;
   font-size: 4em;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #contact > h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #contact > p {
+    font-size: 1.2em;
+    line-height: 2em;
+  }
+
+  .fa-twitter:before,
+  .fa-linkedin:before,
+  .fa-facebook:before,
+  .fa-envelope:before {
+    padding: 15px;
+    font-size: 3em;
+  }
+}
 /* End of Contact */
 
 /* Footer */
@@ -171,7 +211,6 @@ footer {
   text-align: center;
   height: 40px;
   width: 100%;
-  margin: 40px;
   border-width: medium;
   border-top: 1px;
   border-top-style: outset;
@@ -182,5 +221,6 @@ footer {
 
 footer > h6 {
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* End of Footer */
