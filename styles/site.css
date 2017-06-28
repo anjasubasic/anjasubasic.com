@@ -1,11 +1,15 @@
 html {
   overflow-y: scroll; /* prevents content pages with less content from shifting the page */
+  overflow-x: hidden; /* disables horizontal scroll on mobile */
+  max-width: 100%;
   position: relative;
   min-height: 100%;
 }
 
 body {
   margin: 0 0 100px; /* height of the sticky footer */
+  overflow-x: hidden;
+  max-width: 100%;
   font-family: 'Sanchez', serif;
 }
 
