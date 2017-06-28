@@ -1,12 +1,13 @@
 html {
-  overflow-y: scroll;
+  overflow-y: scroll; /* prevents content pages with less content from shifting the page */
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-  margin: 0px;
+  margin: 0 0 100px; /* height of the sticky footer */
   font-family: 'Sanchez', serif;
 }
-
 
 .btn {
   padding: 20px;
@@ -169,10 +170,14 @@ header > h1 {
 footer {
   text-align: center;
   height: 40px;
+  width: 100%;
   margin: 40px;
   border-width: medium;
   border-top: 1px;
   border-top-style: outset;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 footer > h6 {
