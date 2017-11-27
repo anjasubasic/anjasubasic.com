@@ -209,7 +209,7 @@ header h1 {
   text-align: center;
 }
 
-.fa-twitter:before,
+.fa-github:before,
 .fa-linkedin:before,
 .fa-facebook:before,
 .fa-envelope:before {
@@ -228,7 +228,7 @@ header h1 {
     line-height: 2em;
   }
 
-  .fa-twitter:before,
+  .fa-github:before,
   .fa-linkedin:before,
   .fa-facebook:before,
   .fa-envelope:before {
